@@ -4,8 +4,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon index.js"
-  },
+  "dev": "nodemon index.js",
+  "build": "echo 'No build needed for the server' && exit 0"
+},
+
   "keywords": [],
   "author": "",
   "license": "ISC",
