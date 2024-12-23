@@ -6,7 +6,7 @@
   "scripts": {
   "dev": "nodemon index.js",
   "build": "echo 'No build needed for the server' && exit 0"
-},
+}, 
 
   "keywords": [],
   "author": "",
