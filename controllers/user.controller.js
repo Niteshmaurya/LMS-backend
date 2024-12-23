@@ -112,6 +112,7 @@ export const updateProfile = async (req, res) => {
     try {
         const userId = req.id;
         const { name } = req.body;
+        console.log(req.body.name)
         const profilePhoto = req.file;
 
         const user = await User.findById(userId);
