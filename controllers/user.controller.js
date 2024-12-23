@@ -111,6 +111,7 @@ export const getUserProfile = async (req, res) => {
 export const updateProfile = async (req, res) => {
     try {
         const userId = req.id;
+        console.log("testing:" + req.body);
         const { name } = req.body;
         console.log(req.body.name)
         const profilePhoto = req.file;
