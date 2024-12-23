@@ -22,7 +22,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 app.use(cors({
-    origin: "https://lms-frontend-zeta-jade.vercel.app/",
+    origin: "https://lms-frontend-zap7.vercel.app/",
     credentials: true
 }));
 

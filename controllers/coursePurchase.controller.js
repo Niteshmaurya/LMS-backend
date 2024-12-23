@@ -39,8 +39,8 @@ export const createCheckoutSession = async (req, res) => {
         },
       ],
       mode: "payment",
-      success_url: `https://lms-frontend-zeta-jade.vercel.app/course-progress/${courseId}`, // once payment successful redirect to course progress page
-      cancel_url: `https://lms-frontend-zeta-jade.vercel.app/course-detail/${courseId}`,
+      success_url: `https://lms-frontend-zap7.vercel.app/course-progress/${courseId}`, // once payment successful redirect to course progress page
+      cancel_url: `https://lms-frontend-zap7.vercel.app/course-detail/${courseId}`,
       metadata: {
         courseId: courseId,
         userId: userId,
